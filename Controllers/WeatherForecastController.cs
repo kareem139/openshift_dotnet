@@ -29,7 +29,7 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
-    [HttpGet("getOne")]
+    [HttpGet("getOnee")]
     public WeatherForecast getOne()
     {
         return new WeatherForecast
